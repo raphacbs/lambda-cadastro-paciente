@@ -1,5 +1,9 @@
 service: cadastro-pacientes
 
+plugins:
+  - serverless-offline
+
+
 frameworkVersion: "2"
 
 provider:
