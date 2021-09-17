@@ -1,0 +1,196 @@
+{
+    "PACIENTES": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "data_nascimento": {
+                        "S" : "1984-13-12"
+                    },
+                    "email": {
+                        "S" : "teste@email.com"
+                    },
+                    "nome": {
+                        "S" : "João"
+                    },
+                    "paciente_id": {
+                        "S" : "1984-abc"
+                    },
+                    "status": {
+                        "BOOL" : true
+                    },
+                    "telefone": {
+                        "S" : "81123456789"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "data_nascimento": {
+                        "S" : "1984-13-12"
+                    },
+                    "email": {
+                        "S" : "teste@email.com"
+                    },
+                    "nome": {
+                        "S" : "José"
+                    },
+                    "paciente_id": {
+                        "S" : "1984-def"
+                    },
+                    "status": {
+                        "BOOL" : true
+                    },
+                    "telefone": {
+                        "S" : "81123456789"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "data_nascimento": {
+                        "S" : "1984-13-12"
+                    },
+                    "email": {
+                        "S" : "teste@email.com"
+                    },
+                    "nome": {
+                        "S" : "Marta"
+                    },
+                    "paciente_id": {
+                        "S" : "1984-ghi"
+                    },
+                    "status": {
+                        "BOOL" : true
+                    },
+                    "telefone": {
+                        "S" : "81123456789"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "data_nascimento": {
+                        "S" : "1984-13-12"
+                    },
+                    "email": {
+                        "S" : "teste@email.com"
+                    },
+                    "nome": {
+                        "S" : "Regina"
+                    },
+                    "paciente_id": {
+                        "S" : "1984-jlm"
+                    },
+                    "status": {
+                        "BOOL" : true
+                    },
+                    "telefone": {
+                        "S" : "81123456789"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "data_nascimento": {
+                        "S" : "1984-13-12"
+                    },
+                    "email": {
+                        "S" : "teste@email.com"
+                    },
+                    "nome": {
+                        "S" : "Daniela"
+                    },
+                    "paciente_id": {
+                        "S" : "1984-nop"
+                    },
+                    "status": {
+                        "BOOL" : true
+                    },
+                    "telefone": {
+                        "S" : "81123456789"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "data_nascimento": {
+                        "S" : "1984-13-12"
+                    },
+                    "email": {
+                        "S" : "teste@email.com"
+                    },
+                    "nome": {
+                        "S" : "João"
+                    },
+                    "paciente_id": {
+                        "S" : "1984-qrs"
+                    },
+                    "status": {
+                        "BOOL" : true
+                    },
+                    "telefone": {
+                        "S" : "81123456789"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "data_nascimen8to": {
+                        "S" : "1964-13-12"
+                    },
+                    "email": {
+                        "S" : "teste@email.com"
+                    },
+                    "nome": {
+                        "S" : "Talles"
+                    },
+                    "paciente_id": {
+                        "S" : "1984-tux"
+                    },
+                    "status": {
+                        "BOOL" : true
+                    },
+                    "telefone": {
+                        "S" : "81123456789"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "data_nascimento": {
+                        "S" : "1984-5-12"
+                    },
+                    "email": {
+                        "S" : "teste@email.com"
+                    },
+                    "nome": {
+                        "S" : "Maria"
+                    },
+                    "paciente_id": {
+                        "S" : "1984-vwy"
+                    },
+                    "status": {
+                        "BOOL" : true
+                    },
+                    "telefone": {
+                        "S" : "81123456789"
+                    }
+                }
+            }
+        }
+    ]
+}

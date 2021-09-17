@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "handler.js",
-  "dependencies": {},
+  "dependencies": {
+    "aws-sdk": "^2.990.0",
+    "uuid": "^8.3.2"
+  },
   "devDependencies": {
     "serverless-offline": "^8.2.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "sls deploy",
+    "db:seed": "aws dynamodb batch-write-item --request-items file://seeds/pacientes.json",
+    "local": "sls offline"
   },
   "keywords": [],
   "author": "",
